@@ -1,0 +1,124 @@
+<html>
+    <head>
+        <!--cdn used-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <!-- styling by mentioning div id -->
+   <style> 
+    
+        textarea{
+            cursor: pointer;
+           
+        }
+        #t1
+        {
+            background-image: url('house\ icon.jpg');
+            background-size: 80%;
+        }
+        #t2
+        {
+            background-image: url('top\ view.jpg');
+            background-size: 90%;
+            
+        } 
+        #t3
+        {
+            background-image: url('front\ view.jpg');
+            background-size: 90%;
+            
+        }
+        #boxes
+        {
+            border-top: none;
+        }
+       
+        #divform{
+            margin-top: 2%;
+            width: 20%;
+            float: left;
+            height: 100%;
+            
+            border: 1px solid black;
+            
+            
+        } 
+        #divimg{
+            width: 80%;
+            float: left;
+            height: 48%;
+            border: 1px solid black;
+            
+        }
+        #otherimages
+        {
+            border: 1px solid black;
+            float: left;
+            width: 80%;
+            height: 30%;
+            
+
+        }
+    </style>    
+
+    </head>
+    <title>Advertisement listing view</title>
+    <body class="bg-light">                                      <!--body-->
+        
+        <div id="boxes"> 
+        <div id="divform"> 
+        <form action="#">                 <!--form started-->
+            <div class="form-group">
+              <label for="name">Location</label>
+              <input type="text" class="form-control" id="name">
+            </div> 
+            <div class="form-group">
+                <label for="address">Looking for</label>
+                <input type="text" class="form-control" id="require">
+              </div>
+           
+            <div class="form-group">
+              <label for="phone">Price</label>
+              <input type="number" class="form-control" id="price">
+            </div> 
+             
+            <div class="form-group">
+                <label for="available">Availability</label>
+                <input type="text" class="form-control" id="available">
+              </div> 
+              
+            <div class="container text-center">
+            <button  type="submit"  class="btn btn-primary">Submit</button>
+            </div>  
+        </form>    <!-- form end-->
+        </div>
+
+        <div id="divimg">
+            <div class="container text-center">
+                <h1>Property title</h1>
+            
+            <img  id="photo" src="house icon.jpg"></div>
+            </div>  
+        </div>
+        <hr>
+        <div id="otherImages">
+            <div class="container text-center">
+                <br>
+            <textarea id="t1" rows="6" cols="12" title="other image of the property"></textarea>
+            <textarea id="t2" rows="6" cols="12" title="top view"></textarea>
+            <textarea id="t3" rows="6" cols="12" title="front view" ></textarea>
+            </div>
+          </div>  
+
+          <div id="otherdetails">
+            <div class="container text-center">
+                <h1>Property Details</h1>
+                <h3>14 rock street  Kansas</h3>
+                <h3>Contact number- *********</h3>
+            </div>
+          </div> 
+
+
+        </div> 
+    </body>                         <!--body end -->
+</html>
